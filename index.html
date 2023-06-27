@@ -2,23 +2,49 @@
 <html>
 
 <head>
-    <title>Your Consultancy</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <title>Somastack - Tech Solutions Consulting Services</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <style>
+        /* Add a CSS animation to the main element */
+        main {
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
+        /* Define the animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <!-- Add your logo, navigation, and any other header content here -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
-
     <main>
-        <h1>Welcome to Your Consultancy</h1>
-        <!-- Add more content to showcase your consultancy's services and expertise -->
+        <h1>Welcome to Somastack</h1>
+        <p>We provide tech solutions consulting services to help your business grow.</p>
     </main>
-
     <footer>
-        <!-- Add footer content, such as contact information or links to social media profiles -->
+        <p>&copy; 2021 Somastack. All rights reserved.</p>
     </footer>
 </body>
 
