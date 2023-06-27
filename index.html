@@ -10,19 +10,60 @@
         /* Add a CSS animation to the main element */
         main {
             opacity: 0;
+        }
+
+        /* Define the animation for the abstract shape */
+        #abstract-shape {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            animation: scaleIn 1s ease-in-out forwards;
+        }
+
+        /* Define the animation for the company name */
+        #company-name {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-180deg) scale(0);
+            animation: rotateIn 1s ease-in-out forwards;
+        }
+
+        /* Define the animation for the landing page */
+        #landing-page {
+            opacity: 0;
             animation: fadeIn 1s ease-in-out forwards;
         }
 
-        /* Define the animation */
+        /* Define the animations */
+        @keyframes scaleIn {
+            from {
+                transform: translate(-50%, -50%) scale(0);
+            }
+
+            to {
+                transform: translate(-50%, -50%) scale(1);
+            }
+        }
+
+        @keyframes rotateIn {
+            from {
+                transform: translate(-50%, -50%) rotate(-180deg) scale(0);
+            }
+
+            to {
+                transform: translate(-50%, -50%) rotate(0) scale(1);
+            }
+        }
+
         @keyframes fadeIn {
             from {
                 opacity: 0;
-                transform: translateY(10px);
             }
 
             to {
                 opacity: 1;
-                transform: translateY(0);
             }
         }
     </style>
@@ -39,13 +80,51 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Welcome to Somastack</h1>
+    <div id="abstract-shape"></div>
+    <h1 id="company-name">Somastack</h1>
+    <main id="landing-page">
+        <h2>Welcome to Somastack</h2>
         <p>We provide tech solutions consulting services to help your business grow.</p>
     </main>
     <footer>
         <p>&copy; 2021 Somastack. All rights reserved.</p>
     </footer>
+    <script>
+        // Define a function that creates the introductory animation
+        function createIntroAnimation() {
+            // Get the abstract shape and company name elements
+            const abstractShape = document.getElementById('abstract-shape');
+            const companyName = document.getElementById('company-name');
+
+            // Define the properties of the animation
+            const abstractShapeSize = 200;
+            const abstractShapeColor = '#ff0000';
+            const companyNameSize = 72;
+            const companyNameColor = '#ffffff';
+
+            // Define the animation for the abstract shape
+            abstractShape.style.width = `${abstractShapeSize}px`;
+            abstractShape.style.height = `${abstractShapeSize}px`;
+            abstractShape.style.borderRadius = '50%';
+            abstractShape.style.backgroundColor = abstractShapeColor;
+
+            // Define the animation for the company name
+            companyName.style.fontSize = `${companyNameSize}px`;
+            companyName.style.color = companyNameColor;
+
+            // Define the animation for the landing page
+            const landingPage = document.getElementById('landing-page');
+            landingPage.style.opacity = 1;
+
+            // Focus on the company name element when the animation is complete
+            setTimeout(() => {
+                companyName.focus();
+            }, 3000);
+        }
+
+        // Call the createIntroAnimation function when the window loads
+        window.onload = createIntroAnimation;
+    </script>
 </body>
 
 </html>
