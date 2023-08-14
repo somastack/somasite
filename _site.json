@@ -78,13 +78,6 @@
       "fileSize" : 152
     },
     {
-      "path" : "index.css",
-      "mimeType" : "text/css",
-      "lastUpdated" : 1691981228,
-      "checksum" : "32357f86ea5d2ffd6a2ad56589f646c1",
-      "fileSize" : 468
-    },
-    {
       "path" : ".git/REBASE_HEAD",
       "mimeType" : "application/octet-stream",
       "lastUpdated" : 1691893175,
@@ -122,9 +115,9 @@
     {
       "path" : "index.html",
       "mimeType" : "text/html",
-      "lastUpdated" : 1691984567,
-      "checksum" : "f6726b24f99cd28d87b43cab1b911cac",
-      "fileSize" : 5704
+      "lastUpdated" : 1691987093,
+      "checksum" : "dc228884ef8539662f64b6d9b6da36f5",
+      "fileSize" : 5783
     },
     {
       "path" : ".git/objects/b4/d442f393f8f30f76e2f96cad6154c257318c84",
@@ -528,7 +521,7 @@
     {
       "path" : "index.js",
       "mimeType" : "text/javascript",
-      "lastUpdated" : 1691981236,
+      "lastUpdated" : 1691987020,
       "checksum" : "8a226713d14ab40375412428809c82d8",
       "fileSize" : 817
     },
@@ -566,6 +559,13 @@
       "lastUpdated" : 1691893325,
       "checksum" : "cf685794a1fc84066a2509111b737081",
       "fileSize" : 4396
+    },
+    {
+      "path" : "styles.css",
+      "mimeType" : "text/css",
+      "lastUpdated" : 1691987020,
+      "checksum" : "32357f86ea5d2ffd6a2ad56589f646c1",
+      "fileSize" : 468
     },
     {
       "path" : ".git/COMMIT_EDITMSG",
