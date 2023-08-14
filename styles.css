@@ -17,11 +17,23 @@
     left: 0;
     right: 0;
     width: 90%;
-    //background-color:pink;
     padding-bottom: 30px;
     text-align: center;
     font-family: "Lato";
     font-weight: "regular";
     font-size: 20;
     overflow-x: hidden;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+svg {
+    fill: white;
+}
+
+p {
+    color: white;
 }
