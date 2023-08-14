@@ -78,6 +78,13 @@
       "fileSize" : 152
     },
     {
+      "path" : "index.css",
+      "mimeType" : "text/css",
+      "lastUpdated" : 1691981228,
+      "checksum" : "32357f86ea5d2ffd6a2ad56589f646c1",
+      "fileSize" : 468
+    },
+    {
       "path" : ".git/REBASE_HEAD",
       "mimeType" : "application/octet-stream",
       "lastUpdated" : 1691893175,
@@ -115,9 +122,9 @@
     {
       "path" : "index.html",
       "mimeType" : "text/html",
-      "lastUpdated" : 1691893380,
-      "checksum" : "352b48b10129cf4eb3c567e54930d979",
-      "fileSize" : 5474
+      "lastUpdated" : 1691981272,
+      "checksum" : "9e6c732f0b2c0cd3ddf53b4073bd2672",
+      "fileSize" : 5104
     },
     {
       "path" : ".git/objects/b4/d442f393f8f30f76e2f96cad6154c257318c84",
@@ -517,6 +524,13 @@
       "lastUpdated" : 1691803168,
       "checksum" : "a0b2633a2c8e97501610bd3f73da66fc",
       "fileSize" : 4726
+    },
+    {
+      "path" : "index.js",
+      "mimeType" : "text/javascript",
+      "lastUpdated" : 1691981236,
+      "checksum" : "8a226713d14ab40375412428809c82d8",
+      "fileSize" : 817
     },
     {
       "path" : ".git/AUTO_MERGE",
