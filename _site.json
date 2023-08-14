@@ -78,6 +78,13 @@
       "fileSize" : 152
     },
     {
+      "path" : "index.css",
+      "mimeType" : "text/css",
+      "lastUpdated" : 1691981228,
+      "checksum" : "32357f86ea5d2ffd6a2ad56589f646c1",
+      "fileSize" : 468
+    },
+    {
       "path" : ".git/REBASE_HEAD",
       "mimeType" : "application/octet-stream",
       "lastUpdated" : 1691893175,
@@ -517,6 +524,13 @@
       "lastUpdated" : 1691803168,
       "checksum" : "a0b2633a2c8e97501610bd3f73da66fc",
       "fileSize" : 4726
+    },
+    {
+      "path" : "index.js",
+      "mimeType" : "text/javascript",
+      "lastUpdated" : 1691981236,
+      "checksum" : "8a226713d14ab40375412428809c82d8",
+      "fileSize" : 817
     },
     {
       "path" : ".git/AUTO_MERGE",
