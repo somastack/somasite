@@ -1,0 +1,18 @@
+name: Add Issues To GitHub projects
+run-name: Issue created in ${{ github.repository }}. Moving issue to the backlog project
+
+on:
+  issues:
+    types: [opened, transferred]
+
+jobs:
+  move-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add issue to project
+        uses: monry/actions-add-issue-to-project@v2.0.1
+        with:
+          github-token: ${{ secrets.GHTOKEN }}
+          project-number: 1
+          project-owner: somastack
+          issue-id: ${{ github.event.issue.node_id }}
